@@ -70,8 +70,8 @@ const Info = styled.div`
   color: #64d1b8;
   cursor: pointer;
   font-size: 16px;
-  letter-spacing: 2px;
   font-weight: bold;
+  letter-spacing: 2px;
   margin: 0px 25px 0px auto;
   &:hover {
     color: green;
@@ -79,8 +79,8 @@ const Info = styled.div`
 `;
 
 const Vizzuality = styled.img`
-  max-width: 200px;
   min-width: 70px;
+  max-width: 200px;
   padding-left: 10px;
   @media (max-width: 860px) {
     max-width: 100%;
@@ -88,8 +88,8 @@ const Vizzuality = styled.img`
 `;
 
 const Title = styled.h1`
-  margin: 0px auto;
   font-size: 40px;
+  margin: 0px auto;
   font-weight: 400;
   text-align: center;
   & a {

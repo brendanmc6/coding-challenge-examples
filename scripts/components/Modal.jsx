@@ -42,27 +42,27 @@ Modal.propTypes = {
 };
 
 const SpinnerContainer = styled.div`
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  bottom: 0px;
   z-index: 1;
+  width: 100%;
+  bottom: 0px;
+  display: flex;
+  position: absolute;
+  justify-content: center;
 `;
 
 const Placeholder = styled.img`
-  position: absolute;
   left: 0px;
   z-index: 0;
   width: 100%;
   height: 100%;
+  position: absolute;
 `;
 
 const Image = styled.img`
+  z-index: 2;
   width: 100%;
   height: auto;
   position: relative;
-  z-index: 2;
 `;
 
 const Close = styled.div`
@@ -85,10 +85,10 @@ const Close = styled.div`
 `;
 
 const Caption = styled.div`
-  padding: 10px;
   width: 600px;
-  margin: 0px 10px 10px 10px;
+  padding: 10px;
   background-color: white;
+  margin: 0px 10px 10px 10px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   @media (max-width: 620px) {
@@ -97,10 +97,10 @@ const Caption = styled.div`
 `;
 
 const ImageContainer = styled.div`
-  position: relative;
   width: 600px;
-  margin: 0px 10px;
   height: 600px;
+  margin: 0px 10px;
+  position: relative;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   @media (max-width: 620px) {
     /* Responsive sizing, without distorting the image */
@@ -110,12 +110,12 @@ const ImageContainer = styled.div`
 `;
 
 const Background = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: center;
   width: 100%;
   height: 90%;
-  position: absolute;
   z-index: 1;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-flow: column nowrap;
   background-color: #00000087;
 `;

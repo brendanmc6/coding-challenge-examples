@@ -85,25 +85,25 @@ const Close = styled.div`
 `;
 
 const Popup = styled.div`
+  margin: 10px;
+  max-width: 800px;
   overflow-y: auto;
+  background: white;
   overflow-x: hidden;
   padding: 10px 30px;
-  margin: 10px;
-  background: white;
   position: relative;
   border-radius: 4px;
-  max-width: 800px;
   max-height: calc(100% - 20px);
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 `;
 
 const Background = styled.div`
+  bottom: 0;
   z-index: 10;
   width: 100%;
   height: 100%;
   display: flex;
   position: fixed;
-  bottom: 0;
   align-items: center;
   justify-content: center;
   background-color: #00000087;
